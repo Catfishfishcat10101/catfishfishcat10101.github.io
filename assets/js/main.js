@@ -1,8 +1,20 @@
-/*
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+document.addEventListener('DOMContentLoaded', function() {
+	const days = [
+		{ day: 'Saturday', price: '$7', hours: '10a.m. - 6p.m.', description: 'New Inventory. Restocked throughout the day.' },
+	];
+	
+	const dealsContainer = document.getElementById('daily-deals');
+	days.forEach(day => {
+		const card = document.createElement('div');
+		card.innerHTML = `
+		<h3>${day.day}</h3>
+		<p>Price: ${day.price}</p>
+		<p>Hours: ${day.hours}</p>
+		<p>${day.description}</p>
+		`;
+		dealsContainer.appendChild(card);
+	});
+});
 
 (function($) {
 
@@ -34,29 +46,11 @@
 			speed: 2000
 		});
 
-	// Dropdowns.
-		$('#nav > ul').dropotron({
-			alignment: 'right',
-			hideDelay: 350
-		});
-
-	// Nav.
-
-		// Title Bar.
+	// Title Bar.
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
 					'<span class="title">' + $('#logo').html() + '</span>' +
-				'</div>'
-			)
-				.appendTo($body);
-
-		// Panel.
-			$(
-				'<div id="navPanel">' +
-					'<nav>' +
-						$('#nav').navList() +
-					'</nav>' +
 				'</div>'
 			)
 				.appendTo($body)
