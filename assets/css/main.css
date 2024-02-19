@@ -2615,13 +2615,13 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			height: 2.5em;
-			line-height: 2.5em;
+			height: 4.5em;
+			line-height: 4.5em;
 			padding: 0 0.5em;
 		}
 
-			ul.icons li .icon {
-				font-size: 0.8em;
+			ul.icons li .icon:hover {
+				font-size: 1.2em;
 			}
 
 				ul.icons li .icon:before {
