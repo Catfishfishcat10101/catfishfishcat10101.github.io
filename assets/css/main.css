@@ -3586,16 +3586,13 @@ input, select, textarea {
 				
 			}
 
-
-		/* Spotlight 
-
 			.spotlight .image.main {
 				max-height: 50vh;
 			}
 
 			.spotlight .content {
 				padding: 3em 1.25em 1em 1.25em !important;
-			} */
+			} 
 
 		/* Wrapper */
 
@@ -3632,7 +3629,7 @@ input, select, textarea {
 			}
 			
 			#footer .icons {
-				justify-content: space-between;
+				justify-content: center;
 			}
 
 	}
