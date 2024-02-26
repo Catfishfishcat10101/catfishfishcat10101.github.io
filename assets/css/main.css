@@ -2,15 +2,15 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 @import "https://unpkg.com/open-props@1.6.17/easings.min.css";
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	.container {
-		width: 750px;
+		max-width: 750px;
 	}
 }
 
 @media (min-width: 992px) {
 	.container {
-		width: 970px;
+		max-width: 970px;
 	}
 }
 /*
