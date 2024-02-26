@@ -62,11 +62,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*
 body {
 	-webkit-text-size-adjust: auto;
 }
-
+*/
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -98,7 +98,7 @@ input, select, textarea {
 		background: #1c1d26;
 		box-sizing: border-box;
 	}
-	#welcome-section, #about-us, #policies {
+	#welcome-section, #about-us, #policies, #footer {
 		padding: 500px;
 	}
 
