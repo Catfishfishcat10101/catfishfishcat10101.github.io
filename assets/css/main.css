@@ -3454,7 +3454,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 736px) {
 
 		/* Basic */
 
@@ -3566,7 +3566,7 @@ input, select, textarea {
 
 			footer {
 				max-width: 100%;
-				padding: 0;
+				padding: 3.25em 1.5em;
 			}
 
 	}
