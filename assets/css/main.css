@@ -13,7 +13,7 @@
 		width: 970px;
 	}
 }
-
+/*
 button {
   background-color: var(--black);
   padding: 6px 1px;
@@ -28,7 +28,7 @@ button {
   position: relative;
   overflow: hidden;
 }
-
+*/
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -58,22 +58,13 @@ ol, ul {
 	list-style: none;
 }
 
-blockquote, q {
-	quotes: none;
-}
-
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: 'PLACEHOLDER';
-		content: none;
-	}
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 body {
-	-webkit-text-size-adjust: none;
+	-webkit-text-size-adjust: 480px;
 }
 
 mark {
