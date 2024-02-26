@@ -3572,7 +3572,7 @@ input, select, textarea {
 
 /* XSmall */
 
-	@media screen and (max-width: 360px) {
+	@media screen and (max-width: 500px) {
 
 		/* Basic */
 
@@ -3585,6 +3585,7 @@ input, select, textarea {
 				font-family: Arial, Helvetica, sans-serif;
 				
 			}
+
 
 			.spotlight .image.main {
 				max-height: 50vh;
@@ -3617,7 +3618,6 @@ input, select, textarea {
 				position: absolute;
 				bottom: 20;
 				max-width: 100%;
-				justify-content: center;
 			}
 
 			
@@ -3627,7 +3627,6 @@ input, select, textarea {
 				display: block;
 				margin: 0;
 				padding: 0;
-				max-width: inherit;
 			}
 			
 			#footer .icons {
