@@ -3576,7 +3576,7 @@ input, select, textarea {
 
 		/* Basic */
 
-			html, body, footer {
+			html, body, footer, content {
 				max-width: 360px;
 			}
 
