@@ -2573,7 +2573,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 500px) {
+		@media screen and (max-width: 600px) {
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -2581,7 +2581,7 @@ input, select, textarea {
 				-ms-flex-direction: column;
 				flex-direction: column;
 				margin-left: 0;
-				width: 100% !important;
+				max-width: 100% !important;
 				z-index: 5;
 			}
 
