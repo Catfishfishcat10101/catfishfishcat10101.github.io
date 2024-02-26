@@ -2847,7 +2847,7 @@ input, select, textarea {
 			background: rgba(23, 24, 32, 0.95);
 			border-style: solid;
 			opacity: 1;
-			position: absolute;
+			position: relative;
 		}
 
 		.spotlight .goto-next {
