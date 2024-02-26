@@ -3572,12 +3572,12 @@ input, select, textarea {
 
 /* XSmall */
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 500px) {
 
 		/* Basic */
 
 			html, body, footer {
-				min-width: 320px;
+				max-width: 320px;
 			}
 
 			body, input, select, textarea {
