@@ -3198,7 +3198,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-			#banner .content header {
+			#banner .content header footer {
 				display: inline-block;
 				vertical-align: middle;
 			}
@@ -3268,7 +3268,7 @@ input, select, textarea {
 			line-height: 1em;
 			margin: 2em 0 0 0;
 			padding: 0;
-			text-align: center;
+			text-align: left;
 		}
 
 			#footer .copyright li {
