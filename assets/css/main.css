@@ -3454,7 +3454,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 400px) {
 
 		/* Basic */
 
@@ -3463,7 +3463,7 @@ input, select, textarea {
 			}
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 10pt;
 			}
 
 			h2 {
@@ -3481,7 +3481,7 @@ input, select, textarea {
 		/* Section/Article */
 
 			header p br {
-				display: none;
+				display: flex;
 			}
 
 			header h2 + p {
