@@ -64,7 +64,7 @@ table {
 }
 
 body {
-	-webkit-text-size-adjust: 480px;
+	-webkit-text-size-adjust: auto;
 }
 
 mark {
