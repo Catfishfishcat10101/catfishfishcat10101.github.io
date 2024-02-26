@@ -3617,6 +3617,7 @@ input, select, textarea {
 				position: absolute;
 				bottom: 20;
 				max-width: 100%;
+				justify-content: center;
 			}
 
 			
@@ -3626,6 +3627,7 @@ input, select, textarea {
 				display: block;
 				margin: 0;
 				padding: 0;
+				max-width: inherit;
 			}
 			
 			#footer .icons {
