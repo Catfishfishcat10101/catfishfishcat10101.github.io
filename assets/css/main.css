@@ -3454,7 +3454,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 500px) {
+	@media screen and (max-width: 480px) {
 
 		/* Basic */
 
@@ -3463,7 +3463,7 @@ input, select, textarea {
 			}
 
 			body, input, select, textarea {
-				font-size: 10pt;
+				font-size: 12pt;
 			}
 
 			h2 {
