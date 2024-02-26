@@ -3152,7 +3152,7 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner footer {
+	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
 		background-image: url("../../images/banner.jpg");
@@ -3198,7 +3198,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-			#banner .content header {
+			#banner .content header footer {
 				display: inline-block;
 				vertical-align: middle;
 			}
