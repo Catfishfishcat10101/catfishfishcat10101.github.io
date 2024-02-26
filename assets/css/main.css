@@ -3236,8 +3236,9 @@ input, select, textarea {
 
 	#footer {
 		background: #272833;
-		padding: 0;
-		text-align: left;
+		padding: 6em 0;
+		text-align: right;
+		z-index: 99;
 	}
 
 		#footer .icons .icon.alt {
@@ -3269,7 +3270,7 @@ input, select, textarea {
 			margin: 2em 0 0 0;
 			padding: 0;
 			text-align: left;
-
+			
 		}
 
 			#footer .copyright li {
@@ -3348,7 +3349,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer {
-				padding: 0;
+				padding: 4.5em 0;
 			}
 
 	}
@@ -3454,7 +3455,7 @@ input, select, textarea {
 		display: none;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 736px) {
 
 		/* Basic */
 
@@ -3481,7 +3482,7 @@ input, select, textarea {
 		/* Section/Article */
 
 			header p br {
-				display: flex;
+				display: none;
 			}
 
 			header h2 + p {
