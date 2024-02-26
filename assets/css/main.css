@@ -3236,8 +3236,8 @@ input, select, textarea {
 
 	#footer {
 		background: #272833;
-		padding: 6em 0;
-		text-align: center;
+		padding: 0;
+		text-align: left;
 	}
 
 		#footer .icons .icon.alt {
@@ -3269,6 +3269,7 @@ input, select, textarea {
 			margin: 2em 0 0 0;
 			padding: 0;
 			text-align: left;
+
 		}
 
 			#footer .copyright li {
