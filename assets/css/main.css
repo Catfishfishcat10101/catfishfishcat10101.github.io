@@ -8,9 +8,9 @@
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 500px) {
 	.container {
-		max-width: 970px;
+		min-width: 600px;
 	}
 }
 
@@ -62,11 +62,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*
+
 body {
 	-webkit-text-size-adjust: auto;
 }
-*/
+
 mark {
 	background-color: transparent;
 	color: inherit;
