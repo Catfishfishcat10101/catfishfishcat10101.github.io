@@ -4,13 +4,13 @@
 
 @media (max-width: 768px) {
 	.container {
-		max-width: 750px;
+		max-width: 100%;
 	}
 }
 
 @media (min-width: 500px) {
 	.container {
-		min-width: 600px;
+		min-width: 100%;
 	}
 }
 
@@ -653,15 +653,15 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100%);
-		width: 70em;
+		width: auto;
 	}
 
 		.container.xsmall {
-			width: 15em;
+			width: auto;
 		}
 
 		.container.small {
-			width: 25em;
+			width: auto;
 		}
 
 		.container.medium {
@@ -698,6 +698,9 @@ input, select, textarea {
 		}
 
 /* Row */
+	.card {
+		overflow: hidden;
+	}
 
 	.row {
 		display: flex;
@@ -1919,8 +1922,9 @@ input, select, textarea {
 						}
 
 		}
+		
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 500px) {
 
 			.row {
 				display: flex;
@@ -3623,14 +3627,14 @@ input, select, textarea {
 			
 
 			#footer .copyright li {
-				border-left: 0;
+				border-left: 10px;
 				display: block;
 				margin: 0;
-				padding: 0;
+				padding: 5px;
 			}
 			
 			#footer .icons {
-				justify-content: center;
+				justify-content: right;
 			}
 
 	}
