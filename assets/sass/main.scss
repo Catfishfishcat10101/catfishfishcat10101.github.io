@@ -375,6 +375,7 @@
 /* Container */
 
 	.container {
+		align-items: center;
 		margin: 0 auto;
 		max-width: calc(100% - #{_size(element-margin) * 2});
 		width: _size(container-width);
@@ -2087,8 +2088,13 @@
 
 		/* Footer */
 
-			#footer {
-				padding: $size-wrapper-pad-tb $size-wrapper-pad-lr;
+			#footer 
+			.footer {
+				width: 100%;
+				margin: auto 0;
+			}
+			padding-bottom: 20%;
+	
 			}
 
 	}
